@@ -15,7 +15,7 @@
 		E96A32851DFF92A200DBEFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96A32831DFF92A200DBEFD9 /* LaunchScreen.storyboard */; };
 		E96A32901DFF92A200DBEFD9 /* LEActionSheetDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E96A328F1DFF92A200DBEFD9 /* LEActionSheetDemoTests.m */; };
 		E96A329B1DFF92A200DBEFD9 /* LEActionSheetDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E96A329A1DFF92A200DBEFD9 /* LEActionSheetDemoUITests.m */; };
-		E96A32AB1DFF944200DBEFD9 /* LEActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E96A32AA1DFF944200DBEFD9 /* LEActionSheet.m */; };
+		E96A32AF1DFF986A00DBEFD9 /* LEActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E96A32AE1DFF986A00DBEFD9 /* LEActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		E96A32961DFF92A200DBEFD9 /* LEActionSheetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEActionSheetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96A329A1DFF92A200DBEFD9 /* LEActionSheetDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEActionSheetDemoUITests.m; sourceTree = "<group>"; };
 		E96A329C1DFF92A200DBEFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E96A32A91DFF944200DBEFD9 /* LEActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEActionSheet.h; sourceTree = "<group>"; };
-		E96A32AA1DFF944200DBEFD9 /* LEActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEActionSheet.m; sourceTree = "<group>"; };
+		E96A32AD1DFF986A00DBEFD9 /* LEActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEActionSheet.h; sourceTree = "<group>"; };
+		E96A32AE1DFF986A00DBEFD9 /* LEActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		E96A32741DFF92A200DBEFD9 /* LEActionSheetDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E96A32A81DFF944200DBEFD9 /* lib */,
+				E96A32AC1DFF986A00DBEFD9 /* LEActionSheet */,
 				E96A32781DFF92A200DBEFD9 /* AppDelegate.h */,
 				E96A32791DFF92A200DBEFD9 /* AppDelegate.m */,
 				E96A327B1DFF92A200DBEFD9 /* ViewController.h */,
@@ -144,13 +144,14 @@
 			path = LEActionSheetDemoUITests;
 			sourceTree = "<group>";
 		};
-		E96A32A81DFF944200DBEFD9 /* lib */ = {
+		E96A32AC1DFF986A00DBEFD9 /* LEActionSheet */ = {
 			isa = PBXGroup;
 			children = (
-				E96A32A91DFF944200DBEFD9 /* LEActionSheet.h */,
-				E96A32AA1DFF944200DBEFD9 /* LEActionSheet.m */,
+				E96A32AD1DFF986A00DBEFD9 /* LEActionSheet.h */,
+				E96A32AE1DFF986A00DBEFD9 /* LEActionSheet.m */,
 			);
-			path = lib;
+			name = LEActionSheet;
+			path = ../../LEActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +292,7 @@
 			files = (
 				E96A327D1DFF92A200DBEFD9 /* ViewController.m in Sources */,
 				E96A327A1DFF92A200DBEFD9 /* AppDelegate.m in Sources */,
-				E96A32AB1DFF944200DBEFD9 /* LEActionSheet.m in Sources */,
+				E96A32AF1DFF986A00DBEFD9 /* LEActionSheet.m in Sources */,
 				E96A32771DFF92A200DBEFD9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +529,7 @@
 				E96A32A11DFF92A200DBEFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E96A32A21DFF92A200DBEFD9 /* Build configuration list for PBXNativeTarget "LEActionSheetDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				E96A32A41DFF92A200DBEFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E96A32A51DFF92A200DBEFD9 /* Build configuration list for PBXNativeTarget "LEActionSheetDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +547,7 @@
 				E96A32A71DFF92A200DBEFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
