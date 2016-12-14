@@ -3,3 +3,6 @@
 
 ##使用方法
 pod 'LEActionSheet', '~> 1.0.0'
+
+##示例
+![](instructions.png)
